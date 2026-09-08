@@ -80,7 +80,12 @@ some $p\in\F_q^P$ satisfies $G_Pp+G_Ja=0$, equivalently
 $G_Ja\in\operatorname{im}G_P$, which is $a\in D_P$.  It lies in
 $\operatorname{short}_J(I^\perp)$ exactly when $(0,a)\in I^\perp$,
 equivalently $G_Ja=0$, which is $a\in K_P$.
-The dual identities follow from the standard puncturing--shortening duality.
+For the first dual identity, a helper vector $h$ is orthogonal to every
+punctured dual word exactly when $(0,h)$ is orthogonal to $I^\perp$, hence
+belongs to $I$.  Thus
+$(\operatorname{punct}_J I^\perp)^\perp=\operatorname{short}_J I$.
+Apply this identity to $I^\perp$ and take orthogonal complements to obtain
+the second dual identity.  This is the usual puncturing--shortening duality.
 \proves{prop:puncture-shorten-pair}%
 \end{proof}
 
@@ -111,6 +116,7 @@ support correspondence stated in recovery language.
 \begin{theorem}[Relative weights are exact recovery costs]
 \label{thm:relative-weight-recovery}
 \coverage{absent}%
+\imports{Luo:relative-profile}%
 Let $\ell=\dim W_P$ and $1\leq t\leq\ell$.  The minimum helper-union size
 among recovery systems for all helper-recoverable $t$-dimensional
 subspaces of target linear combinations, denoted $\mu_t(P)$, is
@@ -165,6 +171,7 @@ where $\F_q^H$ denotes vectors supported on $H$.
 \begin{proposition}[Recovery interpretation of the relative profile]
 \label{prop:relative-profile}
 \coverage{absent}%
+\imports{Luo:relative-profile}%
 For $0\leq s\leq|J|$,
 \[
  K_s(D_P,K_P)=
@@ -200,8 +207,12 @@ The strict inequalities
 \[
  1\leq M_1(D_P,K_P)<\cdots<M_\ell(D_P,K_P)
 \]
-therefore say that each additional independent target combination requires a
-strictly larger helper union.  These minima solve the single-block problem but
+therefore say that the optimal helper-union cost, minimized over all recoverable
+target subspaces of each dimension, strictly increases with that dimension.
+The cost need not strictly increase when a prescribed target subspace is
+enlarged: helpers $(u+v,v)$ recover $u$ and $(u,v)$ with the same two-helper
+union, although the best one-dimensional target costs one helper.
+These minima solve the single-block problem but
 do not yet provide recursive state: the next section restores the functional
 labels needed for exact concatenation.  Only when an outer-distance condition
 removes every nonzero label does the answer collapse to

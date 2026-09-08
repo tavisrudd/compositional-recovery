@@ -21,7 +21,7 @@ PDF = PAPER / "compositional_recovery.pdf"
 TITLE = "Exact Compositional Transfer of Bounded Linear Recovery"
 DOI = "10.5281/zenodo.22051903"
 DETERMINISTIC_EPOCH = "1767225600"
-EXPECTED_PAGES = 40
+EXPECTED_PAGES = 43
 EXPECTED_TOOLCHAIN = "leanprover/lean4:v4.32.0-rc1"
 EXPECTED_MATHLIB = "571b8a8e54219b4d393f75f4b8653fac08197fcc"
 EXPECTED_AXIOMS = {"Classical.choice", "Quot.sound", "propext"}
@@ -298,6 +298,9 @@ def main() -> int:
 
     check_public_surface()
     check_metadata_and_formal_boundary()
+    examples = run(["python3", "verification/replay_examples.py", "--check"], PAPER)
+    require(examples.returncode == 0,
+            "explicit-example replay failed:\n" + (examples.stderr or examples.stdout))
     with tempfile.TemporaryDirectory(prefix="complete-repair-ports-build-") as scratch:
         rebuilt = build_pdf(Path(scratch))
     if args.update_pdf:

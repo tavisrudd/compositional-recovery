@@ -1,0 +1,14 @@
+{
+  "explicit-examples.json": {
+    "bytes": 3544,
+    "sha256": "63e63b7af488948cc6d93b0beb1450cc092f4ce78b448fb582ef01aadffa2d23"
+  },
+  "explicit-examples.md": {
+    "bytes": 2399,
+    "sha256": "bd154e0717c9078d287c5a63ae8102f9f0a0ca52678d2388ae9ad508e9db5ced"
+  },
+  "replay_examples.py": {
+    "bytes": 7701,
+    "sha256": "19d2e6791a5826b17a53d0c3b3c045a5c4c26493f8f05a0563a82b33a783be45"
+  }
+}
