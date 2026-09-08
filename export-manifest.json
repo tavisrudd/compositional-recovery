@@ -1,5 +1,5 @@
 {
-  "content_sha256": "c28801f377d31384112fcbf5cac688e4c1d48bf4b9071ad2ecd8fce5cea1e8be",
+  "content_sha256": "b27ece61723a7c6e962dc45fae3b9358625db50df2a147fc64a7fd8acca56e2b",
   "excluded_path_count": 4,
   "excluded_release_outputs": [],
   "excluded_symlinks": [],
@@ -44,7 +44,7 @@
       "mode": "100644",
       "path": "PROVENANCE.md",
       "role": "provenance",
-      "sha256": "e774e7ef1ac9fa88c7b318e78f9fe5460bf05276e88727f89b5a991e50cfb4a9",
+      "sha256": "be035d8875a4e62ef495f21511226b7ac18e630f25ec2d4a7ac9e5ad8592f916",
       "source_blob": null
     },
     {
@@ -66,22 +66,22 @@
       "source_blob": "8ffbd291a792a43638bf7cd2cbaa16f1271986aa"
     },
     {
-      "bytes": 344590,
+      "bytes": 345888,
       "mode": "100644",
       "path": "compositional_recovery.pdf",
       "rewrites": [],
       "role": "release-output",
-      "sha256": "89df4bb7cbf9f16539d5faa8a26c13a28e12cf21bfc88eb83fea137d37342391",
-      "source_blob": "bf392647939d42dc1e596b167b1e63a9d55d26f3"
+      "sha256": "664919356a20ba4e2082657e4dd34dc0f796d05dd94209d3e579037e622b5419",
+      "source_blob": "b1a571c2c7633972001d82ed0f1a125d81ddb21d"
     },
     {
-      "bytes": 15472,
+      "bytes": 15920,
       "mode": "100644",
       "path": "compositional_recovery.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "37de08a4c444f55362482baea714e99fe7238f4c4d76ece423bdd6220bdb06cb",
-      "source_blob": "a8ecc76b3e2cd64606766afb09b6bfdf5aa34536"
+      "sha256": "84cced2c4214e6389e5b63706c53bd7ce047f324d271b1f44e5f7bba433fb6d9",
+      "source_blob": "8d1fa2607be3c961eef6f32f27ce2831035d31f0"
     },
     {
       "bytes": 2294,
@@ -300,13 +300,13 @@
       "source_blob": "07a75531f36468722e4d9b309876dcf200c9ee60"
     },
     {
-      "bytes": 22898,
+      "bytes": 22943,
       "mode": "100644",
       "path": "sections/03a-exact-recovery-optimization.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "1bb015cf67dd1a017b10885c3bd9651491d32a2ecd0de6a7177cea05cc319951",
-      "source_blob": "596e3080d283809b2310e9209a3b0e0d24d672f4"
+      "sha256": "8f0ce489a527788b8dc62dbb9f12ced263cdc61370427a4556926e41896c3ca6",
+      "source_blob": "5f0eb533362012b7d221ac2beab7cd74df56c5bb"
     },
     {
       "bytes": 4738,
@@ -363,22 +363,22 @@
       "source_blob": "fd2669155f8fc64f46bfc76ac7d618ece04403f5"
     },
     {
-      "bytes": 1106,
+      "bytes": 1269,
       "mode": "100644",
       "path": "sections/08-conclusion.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "e994770741f932155e22cd010eee4d91c8653c4e5f88798d642636c7b7b88dc8",
-      "source_blob": "4969efbdf2c13a5aff07ddc24debf85f7fdf621d"
+      "sha256": "de6baa10cedcc562ccd5b24ce95888db23b7d84c807a1ecb29027bd743176ddf",
+      "source_blob": "1cb3973ae343bedd1901d07906e07423768af9a8"
     },
     {
-      "bytes": 14810,
+      "bytes": 14836,
       "mode": "100644",
       "path": "sections/09-contextual-refinement.tex",
       "rewrites": [],
       "role": "manuscript-source",
-      "sha256": "6ec5520854d521208b55b96f1f8df2105cca9bd603f0215ad0eb2aa3dd5e2203",
-      "source_blob": "9d30ab45396e9fc723c2643315d97a186cb7c194"
+      "sha256": "4f278c61d31c8f245cba1499a565c372a5089dfefdd135fc72dcb035f71dcd34",
+      "source_blob": "55d7222eb50546bf2793f7ca1a954a44893256b7"
     },
     {
       "bytes": 1178,
