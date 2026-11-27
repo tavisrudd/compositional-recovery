@@ -12,7 +12,7 @@
       "hypotheses": "Finite fields; nonzero helper-recoverable target; at least two outer blocks and surjective distinguished projection.",
       "conclusion": "Minimum-support lifts over the complete outer functional dual give the exact finite rank-stratified nonconfinement cost, and confinement through a helper radius holds exactly below that cost.",
       "cautions": "Human proof only; no Lean terminal or computational evidence is asserted for this statement.",
-      "statement_digest": "58054b86b69e74db5de3120ce4facb8b7f050d4a831ac1515b72e5b83f69d59d"
+      "statement_digest": "4142e392db0ecb85446e0a0addf5441086fa17fce64929fb2f94f26e50e739cb"
     },
     {
       "id": "mds-reconstruction",
@@ -114,7 +114,7 @@
       "hypotheses": "Finite field tower with represented linear encoders; disjoint leaf blocks; all intermediate target images and functional labels retained.",
       "conclusion": "Ordinary prescribed-coset union-support costs compose exactly by blockwise min-sum substitution under repeated concatenation and satisfy the stated sharp support envelopes; helper-restriction costs together with target images give the target-normalized recursion, and a compatible formula gives the composite dual distance and exact nonconfinement cost while keeping zero and nonzero functional sectors separate.",
       "cautions": "Human proof only; no Lean terminal or computational evidence is asserted for this statement.",
-      "statement_digest": "42a74389631866dc5cda82933ccaa8d3e505502109eebc72e273556e3fa9d541"
+      "statement_digest": "efe6b130a301a1e1e4cc1ca72fd1162eb6acafd1b7c6dfa8fce61ea19cae2a68"
     },
     {
       "id": "outer-column-types",
